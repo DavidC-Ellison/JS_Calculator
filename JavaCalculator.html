@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="JavaCalculator.css">
+    <script type="text/JavaScript" src="JavaCalculator.js"></script>
+</head>
+<body>
+    
+    <div class="buttons">
+        <div class="r00">
+          <form name="form10">
+              <input class="textview" name="display">
+          </form>
+        </div>
+    <div class="">
+        <div class="r01">
+            <button value="7" onclick="insert('7')">7</button>
+            <button value="8" onclick="insert('8')">8</button>
+            <button value="9" onclick="insert('9')">9</button>
+            <button value="/" onclick="insert('/')">&divide;</button>
+        </div>
+        
+        <div class="r02">
+            <button value="4" onclick="insert('4')">4</button>
+            <button value="5" onclick="insert('5')">5</button>
+            <button value="6" onclick="insert('6')">6</button>
+            <button value="*" onclick="insert('*')">&times;</button>
+        </div>
+
+        <div class="r03">
+            <button value="1" onclick="insert('1')">1</button>
+            <button value="2" onclick="insert('2')">2</button>
+            <button value="3" onclick="insert('3')">3</button>
+            <button value="-" onclick="insert('-')">&minus;</button>
+        </div>
+
+        <div class="r04">
+            <button value="c" onclick="form10.display.value = ' '">c</button>
+            <button value="0" onclick="insert('0')">0</button>
+            <button value="=" onclick="equal('=')">&equals;</button>
+            <button value="+" onclick="instert('+')">&plus;</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

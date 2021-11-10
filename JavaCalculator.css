@@ -1,0 +1,44 @@
+body{
+  display: grid;
+  grid-template-areas: 
+  "r00 r00 r00 r00"
+  "r01 r01 r01 r01"
+  "r02 r02 r02 r02"
+  "r03 r03 r03 r03"
+  "r04 r04 r04 r04";
+  background-color: slategray;
+}
+
+.buttons{
+  margin-left: 40em;
+  background-color: gray;
+  border: solid 1px black;
+  width: fit-content;
+}
+button:hover{
+  background-color: rgb(172, 211, 230);
+}
+.r00{
+  grid-area: r00;
+
+}
+
+.r01{
+  grid-area: r01;
+  font-size: 2em;
+}
+
+.r02{
+  grid-area: r02;
+  font-size: 2em;
+}
+
+.r03{
+  grid-area: r03;
+  font-size: 2em;
+}
+
+.r04{
+  grid-area: r04;
+  font-size: 2em;
+}
